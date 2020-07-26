@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="427.0" prefWidth="353.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controler">
+   <children>
+      <Text layoutX="23.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password Generator" textAlignment="CENTER" underline="true" wrappingWidth="307.13671875">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="info" layoutX="19.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wie lang soll das Passwort sein?" textAlignment="CENTER" wrappingWidth="314.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="input" layoutX="102.0" layoutY="87.0" prefHeight="42.0" prefWidth="149.0" promptText="hier eine Zahl eingeben" />
+      <Button layoutX="137.0" layoutY="160.0" mnemonicParsing="false" onAction="#generate" prefHeight="42.0" prefWidth="79.0" text="Gernerieren" />
+      <TextField fx:id="output" layoutX="17.0" layoutY="304.0" prefHeight="69.0" prefWidth="314.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="63.0" fitWidth="92.0" layoutX="261.0" layoutY="366.0">
+         <image>
+            <Image url="@../mfohne.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
